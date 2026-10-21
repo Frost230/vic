@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10152b">
+    <meta name="description" content="Uma declaração especial para Victoria, em um mundo de Minecraft.">
+    <title>Como amo você</title>
+    <link rel="preload" href="assets/press-start-2p-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/press-start-2p-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/victoria-world-next.jpg" as="image">
+    <link rel="preload" href="assets/victoria-world-reminders.jpg" as="image">
+    <link rel="preload" href="assets/victoria-world-protection.jpg" as="image">
+    <link rel="preload" href="assets/victoria-world-thanks-final.jpg" as="image">
+    <link rel="stylesheet" href="styles.css">
+    <script src="loading.js" defer></script>
+  </head>
+  <body>
+    <main
+      class="minecraft-layout"
+      data-minecraft-scene
+      tabindex="0"
+      aria-label="Paisagem Minecraft interativa. Arraste ou toque para mover a imagem; use as setas do teclado."
+    >
+      <img class="minecraft-layout__image" src="assets/minecraft-victoria-world.jpg" alt="" draggable="false">
+      <img class="minecraft-layout__next-image" src="assets/victoria-world-next.jpg" alt="" draggable="false" aria-hidden="true">
+      <img class="minecraft-layout__final-image" src="assets/victoria-world-reminders.jpg" alt="" draggable="false" aria-hidden="true">
+      <img class="minecraft-layout__protection-image" src="assets/victoria-world-protection.jpg" alt="" draggable="false" aria-hidden="true">
+      <img class="minecraft-layout__thanks-final-image" src="assets/victoria-world-thanks-final.jpg" alt="" draggable="false" aria-hidden="true">
+      <div class="minecraft-layout__shade"></div>
+      <div class="minecraft-layout__details" data-scene-details aria-hidden="true"></div>
+
+      <section class="love-declaration" aria-labelledby="love-title">
+        <p class="love-declaration__scroll-hint">Deslize para baixo</p>
+        <div class="love-sign">
+          <span class="love-sign__post" aria-hidden="true"></span>
+          <div class="love-sign__board">
+            <h1 class="love-sign__title" id="love-title">Como amo você</h1>
+          </div>
+        </div>
+
+        <ol class="love-promises">
+          <li><span class="love-promises__number">01</span><span>Eu faria de tudo por você.</span></li>
+          <li><span class="love-promises__number">02</span><span>A sua felicidade é a minha felicidade.</span></li>
+          <li><span class="love-promises__number">03</span><span>Nos seus momentos de choro, eu ficarei com você.</span></li>
+          <li><span class="love-promises__number">04</span><span>Eu continuarei amando você.</span></li>
+          <li><span class="love-promises__number">05</span><span>Eu farei o possível para ver seu sorriso.</span></li>
+          <li><span class="love-promises__number">06</span><span>Eu ouvirei você quando precisar desabafar.</span></li>
+          <li><span class="love-promises__number">07</span><span>Eu demonstrarei meu amor nos pequenos detalhes.</span></li>
+          <li><span class="love-promises__number">08</span><span>Eu estarei disposto a enfrentar as dificuldades ao seu lado.</span></li>
+          <li><span class="love-promises__number">09</span><span>Eu respeitarei você, seus sentimentos e seu espaço.</span></li>
+          <li><span class="love-promises__number">10</span><span>Eu escolheria você todos os dias.</span></li>
+        </ol>
+
+        <div class="dragon-message-wrap">
+          <p class="dragon-message">Eu iria pra outra dimisão enfrenta um dragão, so pra proteger você</p>
+          <button class="advance-button" type="button" data-advance>Avança</button>
+        </div>
+      </section>
+
+      <div class="minecraft-frame">
+        <span class="minecraft-frame__edge minecraft-frame__edge--top"></span>
+        <span class="minecraft-frame__edge minecraft-frame__edge--right"></span>
+        <span class="minecraft-frame__edge minecraft-frame__edge--bottom"></span>
+        <span class="minecraft-frame__edge minecraft-frame__edge--left"></span>
+        <span class="minecraft-frame__corner minecraft-frame__corner--top-left"></span>
+        <span class="minecraft-frame__corner minecraft-frame__corner--top-right"></span>
+        <span class="minecraft-frame__corner minecraft-frame__corner--bottom-right"></span>
+        <span class="minecraft-frame__corner minecraft-frame__corner--bottom-left"></span>
+      </div>
+
+      <section class="love-things" data-love-things aria-labelledby="love-things-title" aria-hidden="true">
+        <p class="love-things__scroll-hint">Deslize para ver tudo</p>
+        <h1 class="love-things__title" id="love-things-title">Coisa que amo em vc</h1>
+        <ol class="love-things__list">
+          <li><span>01</span><p>Amo seu jeito</p></li>
+          <li><span>02</span><p>Amo seu humor</p></li>
+          <li><span>03</span><p>Amo seu beijo</p></li>
+          <li><span>04</span><p>Amo seu abraço</p></li>
+          <li><span>05</span><p>Amo sua risada</p></li>
+          <li><span>06</span><p>Amo seu sorriso</p></li>
+          <li><span>07</span><p>Amo sua voz</p></li>
+          <li><span>08</span><p>Amo seu estilo</p></li>
+          <li><span>09</span><p>Amo suas historias</p></li>
+          <li><span>10</span><p>Amo literalmente TUDO em você</p></li>
+        </ol>
+        <p class="love-things__closing">Amarei você igual o Akaza amou a Koyuki até sua morte.</p>
+        <button class="advance-button love-things__advance" type="button" data-advance-final>Avança</button>
+      </section>
+
+      <section class="reminder-things" data-reminder-things aria-labelledby="reminder-things-title" aria-hidden="true">
+        <p class="reminder-things__scroll-hint">Deslize para ver tudo</p>
+        <h1 class="reminder-things__title" id="reminder-things-title">Coisas que me lembram você</h1>
+        <ol class="reminder-things__list">
+          <li><span>01</span><p>Vermelho e Roxo</p></li>
+          <li><span>02</span><p>Cabelo pintado</p></li>
+          <li><span>03</span><p>Cabelo ondulado</p></li>
+          <li><span>04</span><p>CS</p></li>
+          <li><span>05</span><p>Drake e Predux</p></li>
+          <li><span>06</span><p>Minecraft</p></li>
+          <li><span>07</span><p>Tokito</p></li>
+          <li><span>08</span><p>Parque</p></li>
+          <li><span>09</span><p>Guitarra</p></li>
+          <li><span>10</span><p>TikTok</p></li>
+        </ol>
+        <p class="reminder-things__message">Eu apagaria a memória de todos para que esquecessem quem sou. Perderia tudo, apenas para te proteger.</p>
+        <button class="advance-button reminder-things__advance" type="button" data-advance-protection>Avança</button>
+      </section>
+
+      <section class="thanks-things" data-thanks-things aria-labelledby="thanks-things-title" aria-hidden="true">
+        <div class="thanks-sign">
+          <h1 class="thanks-sign__title" id="thanks-things-title">Obrigado</h1>
+        </div>
+        <ol class="thanks-things__list">
+          <li><span>01</span><p>Obrigado por sempre ser especial para mim.</p></li>
+          <li><span>02</span><p>Obrigado por não ter desistido de mim.</p></li>
+          <li><span>03</span><p>Obrigado por permitir que a gente tenha um futuro. Vou fazer valer a pena, ksk.</p></li>
+          <li><span>04</span><p>Obrigado por cada sorriso.</p></li>
+          <li><span>05</span><p>Obrigado por cada beijo.</p></li>
+          <li><span>06</span><p>Obrigado por cada história compartilhada.</p></li>
+          <li><span>07</span><p>Obrigado por ter esse jeitinho especial.</p></li>
+          <li><span>08</span><p>Obrigado por fazer parte da minha vida.</p></li>
+          <li><span>09</span><p>Obrigado por me fazer feliz a cada dia, ksk.</p></li>
+          <li><span>10</span><p>Obrigado por ser você mesma comigo.</p></li>
+        </ol>
+        <p class="thanks-things__message">Eu entraria no corpo de ferro de um animatrônico só para deixar você livre.</p>
+        <button class="advance-button thanks-things__finish" type="button" data-finish>Finalizar</button>
+      </section>
+
+      <article class="final-letter" data-final-letter aria-labelledby="final-letter-title" aria-hidden="true" tabindex="0">
+        <p class="final-letter__scroll-hint">Deslize para ler a carta</p>
+        <h1 class="final-letter__title" id="final-letter-title">Para você, Vick</h1>
+        <p>Oiii, Vick! Espero que tenha gostado do site, ksks. Mas queria deixar esse finalzinho pra falar o quão especial você tem sido pra mim nesses últimos tempos, ksks.</p>
+        <p>Olha, queria agradecer por tudo que você já fez e ainda faz por mim. Me desculpa mesmo se já fiz algo que te machucou ou de que você não gostou. Meu maior medo é perder você...</p>
+        <p>Sei que não sou perfeito. Me desculpa por não ser a pessoa que você merecia, mas farei de tudo pra tentar me tornar essa pessoa.</p>
+        <p>Eu não sou muito bom com as palavras, ksks, então nesse final dedico uma música pra você.</p>
+        <p class="final-letter__song">“Louco por você”<span>De: Cael Gomess</span></p>
+      </article>
+
+      <div class="love-things-frame" data-love-things-frame aria-hidden="true">
+        <span class="love-things-frame__corner love-things-frame__corner--top-left"></span>
+        <span class="love-things-frame__corner love-things-frame__corner--top-right"></span>
+        <span class="love-things-frame__corner love-things-frame__corner--bottom-right"></span>
+        <span class="love-things-frame__corner love-things-frame__corner--bottom-left"></span>
+      </div>
+
+      <div class="final-scene-frame" data-final-frame aria-hidden="true">
+        <span class="final-scene-frame__corner final-scene-frame__corner--top-left"></span>
+        <span class="final-scene-frame__corner final-scene-frame__corner--top-right"></span>
+        <span class="final-scene-frame__corner final-scene-frame__corner--bottom-right"></span>
+        <span class="final-scene-frame__corner final-scene-frame__corner--bottom-left"></span>
+      </div>
+    </main>
+
+    <button class="music-toggle" type="button" data-music-toggle aria-pressed="false">
+      <span aria-hidden="true">♫</span>
+      <span data-music-label>Música: desligada</span>
+    </button>
+
+    <div class="loading-screen" data-loading-screen role="status" aria-live="polite">
+      <div class="panorama" aria-hidden="true">
+        <img class="panorama__image" src="assets/minecraft-victoria-world.jpg" alt="">
+        <div class="panorama__night"></div>
+        <div class="panorama__glow"></div>
+        <div class="panorama__stars"></div>
+        <div class="panorama__particles"></div>
+      </div>
+
+      <main class="loading-content" aria-label="Carregamento">
+        <div class="loading-content__ornament" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <p class="loading-content__eyebrow"></p>
+        <h1 class="loading-content__title" data-loading-title>Preparando terreno</h1>
+
+        <div class="hearts" data-hearts aria-label="Recuperando dez corações"></div>
+
+        <div
+          class="progress"
+          data-progress
+          role="progressbar"
+          aria-label="Carregamento dos recursos"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuetext="Carregando recursos"
+        >
+          <div class="progress__track">
+            <div class="progress__fill" data-progress-fill></div>
+          </div>
+        </div>
+
+        <p class="loading-content__signature">✦ &nbsp;Victoria&nbsp; ✦</p>
+      </main>
+    </div>
+  </body>
+</html>
