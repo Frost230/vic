@@ -503,6 +503,13 @@ body.loading-active {
   font-weight: 400;
 }
 
+.final-letter .final-letter__author {
+  margin: 20px 0 0;
+  color: #59473a;
+  font-style: italic;
+  text-align: right;
+}
+
 .love-things,
 .love-things-frame,
 .final-scene-frame {
